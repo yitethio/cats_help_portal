@@ -1,7 +1,7 @@
 import React from 'react';
 import { AppBar, Toolbar, Typography, Divider } from '@mui/material';
 import Link from '@mui/material/Link';
-
+import CatsLogo from "../img/cats-logo.png"; // Renamed to CatsLogo
 
 const Header = () => {
   const headerStyle = {
@@ -16,15 +16,12 @@ const Header = () => {
   return (
     <AppBar position="static">
       <Toolbar style={headerStyle}>
-      
-        <div style={{ display: 'flex', alignItems: 'center',justifyContent:'space-between' }}>
-        
+        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+          <img src={CatsLogo} alt="Cats Logo"  style={{ paddingRight: "20px" }} />
           <Divider orientation="vertical" flexItem />
-          <Typography variant="h8" color={'#272343'}>Cats Help Portal</Typography>
+          <Typography style={{ paddingLeft: "20px" }} variant="h8" color={'#272343'}>Cats Help Portal</Typography>
         </div>
-
-       
-        <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-around' }}>
+        <div style={{ display: 'flex', gap: "50px" }}>
           <div>
             <Link href="http://localhost:3000/" variant="subtitle1" color="#1C4575" fontSize="9px" underline="none">
               Home
@@ -32,12 +29,17 @@ const Header = () => {
           </div>
           <div>
             <Link href="http://localhost:3000/vehicle" variant="subtitle1" color="#1C4575" fontSize="9px" underline="none">
-              Vehicle
+            Visit Website
             </Link>
           </div>
           <div>
             <Link href="http://localhost:3000/vehicle" variant="subtitle1" color="#1C4575" fontSize="9px" underline="none">
-              Vehicle
+            Blog 
+            </Link>
+          </div>
+          <div>
+            <Link href="http://localhost:3000/vehicle" variant="subtitle1" color="#1C4575" fontSize="9px" underline="none">
+              contact 
             </Link>
           </div>
         </div>

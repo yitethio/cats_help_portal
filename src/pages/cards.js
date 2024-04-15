@@ -7,8 +7,8 @@ import Transport from '../img/Transport.png';
 
 const CardItem = ({ title, description, image }) => {
   return (
-    <Box sx={{ width:'500px', position: 'relative', borderRadius: '5%' }}>
-      <img src={image} alt="" style={{ width: '100%', height: 200, objectFit: 'cover', borderRadius: '5%' }} />
+    <Box sx={{ width:'500px', position: 'relative', borderRadius: '5%', flexWrap: "wrap", }}>
+      <img src={image} alt="" style={{ width: '100%', height: 250, objectFit: 'cover', borderRadius: '5%' }} />
       <Box
         sx={{
           position: 'absolute',
@@ -24,6 +24,7 @@ const CardItem = ({ title, description, image }) => {
           color: 'white',
           padding: '20px',
           borderRadius: '5%',
+          height: "210px"
         }}
       >
         <Typography gutterBottom variant="h5" component="div">
@@ -49,14 +50,15 @@ function MyCard() {
         width: '100%', // Adjust this to allow for more horizontal space
       }}
     >
-      <div style={{ marginBottom: '20px', width: '80%' }}>
-        <div style={{ display: 'flex', justifyContent: 'space-around', flexDirection: 'row' }}>
+        
+      <div style={{ marginBottom: '20px', width: '80%'}}>
+        <div style={{ display: 'flex', gap:"50px", flexDirection: 'row' }}>
           <CardItem title="Introduction" description="Setting up, paying for, editing," image={Intro} />
           <CardItem title="Planning" description="Managing features and options." image={Plann} />
         </div>
       </div>
       <div style={{ width: '80%' }}>
-        <div style={{ display: 'flex', justifyContent: 'space-around', flexDirection: 'row' }}>
+        <div style={{ display: 'flex', gap:"50px", flexDirection: 'row' }}>
           <CardItem title="warehouse" description="Billing and payment methods." image={Warehouse} />
           <CardItem title="Transport" description="Getting help and assistance." image={Transport} />
         </div>
