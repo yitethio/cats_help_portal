@@ -1,5 +1,5 @@
 import React from 'react';
-import CatsLogo from "../img/cats-logo.png"; 
+import CatsLogo from "../../img/cats-logo.png"; 
 import { Link, Typography, Divider } from '@mui/material';
 import { Email, Phone, Facebook, Instagram, Twitter, LinkedIn  } from '@mui/icons-material';
 
