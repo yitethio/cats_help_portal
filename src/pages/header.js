@@ -1,7 +1,7 @@
 import React from 'react';
 import { AppBar, Toolbar, Typography, Divider } from '@mui/material';
 import Link from '@mui/material/Link';
-import CatsLogo from "../img/cats-logo.png"; // Renamed to CatsLogo
+import CatsLogo from "../img/cats-logo.png"; 
 
 const Header = () => {
   const headerStyle = {
