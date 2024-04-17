@@ -33,7 +33,7 @@ const Header = () => {
             </Link>
           </div>
           <div>
-            <Link href="http://localhost:3000/vehicle" variant="subtitle1" color="#1C4575" fontSize="9px" underline="none">
+            <Link href="http://localhost:3000/blog" variant="subtitle1" color="#1C4575" fontSize="9px" underline="none">
             Blog 
             </Link>
           </div>
