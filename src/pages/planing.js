@@ -18,7 +18,7 @@ function Planning() {
           style={{ width: '100%', height: '100%', objectFit: 'cover' }}
         />
       </div>
-      <div style={{display:"flex", flexDirection:"column", alignItems:"center",marginBottom:'30px' }}>
+      <div style={{display:"flex", flexDirection:"column", marginInline:"10%",marginBottom:'30px' }}>
         <Typography>Follow these 6 steps and you’ll get your Help Scout account up and running in no time. If you'd like to get a full tour of Help Scout and all its features, 
             <br></br>attend one of our weekly live demos or take a video tour.</Typography>
         <Typography>
