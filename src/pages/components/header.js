@@ -1,7 +1,7 @@
 import React from 'react';
 import { AppBar, Toolbar, Typography, Divider } from '@mui/material';
 import Link from '@mui/material/Link';
-import CatsLogo from "../img/cats-logo.png"; 
+import CatsLogo from "../../img/cats-logo.png"; 
 
 const Header = () => {
   const headerStyle = {
@@ -23,7 +23,7 @@ const Header = () => {
         </div>
         <div style={{ display: 'flex', gap: "50px" }}>
           <div>
-            <Link href="http://localhost:3000/" variant="subtitle1" color="#1C4575" fontSize="9px" underline="none">
+            <Link href="/" variant="subtitle1" color="#1C4575" fontSize="9px" underline="none">
               Home
             </Link>
           </div>
@@ -33,7 +33,7 @@ const Header = () => {
             </Link>
           </div>
           <div>
-            <Link href="http://localhost:3000/vehicle" variant="subtitle1" color="#1C4575" fontSize="9px" underline="none">
+            <Link href="http://localhost:3000/blog" variant="subtitle1" color="#1C4575" fontSize="9px" underline="none">
             Blog 
             </Link>
           </div>

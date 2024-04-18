@@ -1,10 +1,10 @@
 import React from 'react';
-import Header from './header';
+import Header from './components/header';
 import Cards from './cards';
 import { Typography } from '@mui/material';
 import SearchBar from './search_bar';
 import Faq from '../pages/faq';
-import Footer from './footer';
+import Footer from './components/footer';
 import { display } from '@mui/system';
 
 function Home() {
