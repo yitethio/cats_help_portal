@@ -52,7 +52,7 @@ function MyCard() {
         paddingInline: '160px'
       }}
     >
-      <CardItem title="Introduction" description="Setting up, paying for, editing," image={Intro} to="/introduction" /> {/* Specify the 'to' prop for each card */}
+      <CardItem title="Introduction" description="Setting up, paying for, editing," image={Intro} to="/introduction" /> 
       <CardItem title="Planning" description="Managing features and options." image={Plann} to="/planning" />
       <CardItem title="Warehouse" description="Billing and payment methods." image={Warehouse} to="/warehouse" />
       <CardItem title="Transport" description="Getting help and assistance." image={Transport} to="/transport" />
