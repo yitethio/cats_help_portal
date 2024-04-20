@@ -1,5 +1,5 @@
 import React from "react";
-import { Link as RouterLink } from 'react-router-dom'; // Import Link from react-router-dom
+import { Link as RouterLink } from 'react-router-dom'; 
 import { Box, Typography, Link } from '@mui/material';
 
 function Category({ title, links }) {
@@ -47,7 +47,7 @@ function App() {
     {
       title: 'Category 1',
       links: [
-        { text: 'Link 1.1', url: '/link1-1' }, // Update URLs with actual page paths
+        { text: 'Link 1.1', url: '/link1-1' },
         { text: 'Link 1.2', url: '/link1-2' },
       ],
     },
