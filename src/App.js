@@ -3,6 +3,7 @@ import React from 'react';
 import Home from './pages/home';
 import Planning from './pages/planing';
 import Blog from './pages/blog';
+import Warehouse from './pages/warehouse';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
      <Route path='/' element={<Home/>}/>
      <Route path='/planning' element={<Planning/>}/>
      <Route path='/blog' element={<Blog/>}/>
+     <Route path='/warehouse' element={<Warehouse/>}/>
 
       </Routes>
     </BrowserRouter>
